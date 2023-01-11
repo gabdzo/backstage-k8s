@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-k8s
+  annotations:
+    github.com/project-slug: gabdzo/backstage-k8s
+    'backstage.io/kubernetes-id': dice-roller
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
