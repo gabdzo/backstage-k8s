@@ -4,7 +4,7 @@ metadata:
   name: backstage-k8s
   annotations:
     github.com/project-slug: gabdzo/backstage-k8s
-    'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-id': backstage-k8s
 spec:
   type: service
   lifecycle: unknown
