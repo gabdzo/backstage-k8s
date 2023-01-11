@@ -6,6 +6,6 @@ metadata:
     github.com/project-slug: gabdzo/backstage-k8s
     'backstage.io/kubernetes-id': dice-roller
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: guests
