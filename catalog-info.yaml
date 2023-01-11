@@ -7,5 +7,5 @@ metadata:
     'backstage.io/kubernetes-id': backstage-k8s
 spec:
   type: service
-  lifecycle: unknown
-  owner: guests
+  lifecycle: experimental
+  owner: user:guest
