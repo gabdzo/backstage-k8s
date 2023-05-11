@@ -2,11 +2,18 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-k8s
+  links:
+    - url: http://localhost:8080
+      title: Jenkins 
+      icon: dashboard
+    - url: https://google.com 
+      title: google
+      icon: google
   annotations:
     github.com/project-slug: gabdzo/backstage-k8s
     'backstage.io/kubernetes-id': backstage-k8s
     backstage.io/techdocs-ref: dir:.
-    'jenkins.io/job-full-name': job/test
+    'jenkins.io/job-full-name': test
 spec:
   type: service
   lifecycle: experimental
