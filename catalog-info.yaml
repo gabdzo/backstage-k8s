@@ -6,6 +6,7 @@ metadata:
     github.com/project-slug: gabdzo/backstage-k8s
     'backstage.io/kubernetes-id': backstage-k8s
     backstage.io/techdocs-ref: dir:.
+    'jenkins.io/job-full-name': job/test
 spec:
   type: service
   lifecycle: experimental
